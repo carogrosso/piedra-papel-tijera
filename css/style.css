@@ -1,0 +1,66 @@
+h1{
+    font-family: 'Press Start 2P', cursive;
+}
+
+h3{
+    font-family: 'Press Start 2P', cursive;
+}
+
+#contenedor{
+    background: cornflowerblue;
+    border: 2px solid black;
+    border-radius: 30px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#menu{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+#contenedor img{
+    width: 150px;
+}
+
+#presentacion{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#btn{
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#jugador1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#jugador2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.manos{
+    display: flex;
+}
+
+.player1{
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+
+.player2{
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
