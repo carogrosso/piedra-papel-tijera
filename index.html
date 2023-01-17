@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <title>P P T</title>
+  <link rel="icon" href="img/icono.png">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" type="text/javascript" defer></script>
+</head>
+
+<body>
+  <div id="contenedor">
+    <nav id="menu">
+        <button class="reiniciar button-55" id="reiniciar">REINICIAR</button>
+    </nav>
+
+    <div id="presentacion">
+      <h1 class="titulo">Piedra, papel o tijera</h1>
+        <h3>¿Quienes van a jugar?</h3>
+            <input type="text" id="jugador1" placeholder="Jugador 1" required>
+            <input type="text" id="jugador2" placeholder="Jugador 2" required>
+            <button class="button-55" type="submit" id="btn">¡JUGAR!</button>
+    </div>
+
+    <div class="wrapper-juego">
+      <div class="player_1">
+        <h1 id="player_1"></h1>
+          <img src="" alt="" id="figura_player_1">
+          <h1 id="nombre_figura_player_1"></h1>
+      </div>
+      <div class="scores">
+        <h1 id="scoreplayer1"></h1>
+        <h1 id="guion" class="display-none">-</h1>
+        <h1 id="scoreplayer2"></h1>
+      </div>
+      <div class="player_2">
+        <h1 id="player_2"></h1>
+        <img src="" alt="" id="figura_player_2">
+        <h1 id="nombre_figura_player_2"></h1>
+      </div>
+    </div>
+
+    <h1 id="resultado"></h1>
+    </div>
+</body>
+</html>
